@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/quizLinearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="mx.ipn.cic.geo.flagquiz.MainActivityFragment"
+    tools:showIn="@layout/activity_main">
+
+    <TextView
+        android:text="@string/question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/questionNumberTextView"
+        android:textAppearance="@android:style/TextAppearance.Material.Medium"
+        android:fontFamily="sans-serif"
+        android:textSize="18sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="@dimen/spacing"
+        android:textAlignment="center"/>
+
+    <ImageView
+        android:id="@+id/flagImageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:layout_marginBottom="@dimen/activity_horizontal_margin"
+        android:layout_weight="1"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/image_description"
+        android:scaleType="fitCenter"
+        app:srcCompat="@android:color/background_light"/>
+
+    <TextView
+        android:text="@string/guess_country"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/guessCountryTextView"
+        android:textAppearance="@android:style/TextAppearance.Material.Medium"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/row1LinearLayout">
+
+        <Button
+            android:text="Button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/country1Button"
+            android:layout_weight="1"
+            android:lines="2"
+            style="@android:style/Widget.Material.Button.Colored"
+            android:textColor="@color/button_text_color"/>
+
+        <Button
+            android:text="Button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/country2Button"
+            android:layout_weight="1"
+            android:lines="2"
+            style="@android:style/Widget.Material.Button.Colored"
+            android:textColor="@color/button_text_color"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/row2LinearLayout">
+
+        <Button
+            android:text="Button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/country3Button"
+            android:layout_weight="1"
+            android:lines="2"
+            style="@android:style/Widget.Material.Button.Colored"
+            android:textColor="@color/button_text_color"/>
+
+        <Button
+            android:text="Button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/country4Button"
+            android:layout_weight="1"
+            android:lines="2"
+            style="@android:style/Widget.Material.Button.Colored"
+            android:textColor="@color/button_text_color"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/row3LinearLayout">
+
+        <Button
+            android:text="Button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/country5Button"
+            android:layout_weight="1"
+            android:lines="2"
+            style="@android:style/Widget.Material.Button.Colored"
+            android:textColor="@color/button_text_color"/>
+
+        <Button
+            android:text="Button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/country6Button"
+            android:layout_weight="1"
+            android:lines="2"
+            style="@android:style/Widget.Material.Button.Colored"
+            android:textColor="@color/button_text_color"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/row4LinearLayout">
+
+        <Button
+            android:text="Button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/country7Button"
+            android:layout_weight="1"
+            android:lines="2"
+            style="@android:style/Widget.Material.Button.Colored"
+            android:textColor="@color/button_text_color"/>
+
+        <Button
+            android:text="Button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/country8Button"
+            android:layout_weight="1"
+            android:lines="2"
+            style="@android:style/Widget.Material.Button.Colored"
+            android:textColor="@color/button_text_color"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/answerTextView"
+        android:textAppearance="@android:style/TextAppearance.Material.Medium"
+        android:layout_gravity="bottom|center_horizontal"
+        android:gravity="center_horizontal"
+        android:textSize="@dimen/textSize"
+        android:textStyle="normal|bold"/>
+
+</LinearLayout>

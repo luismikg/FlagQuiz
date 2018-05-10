@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">FlagQuiz</string>
+    <string name="action_settings">Settings</string>
+    <string name="number_of_choices">Número de Opciones</string>
+    <string name="number_of_choices_description">Mostrar 2, 4, 6 o 8 Botones</string>
+    <string name="world_regions">Regiones</string>
+    <string name="world_regions_description">Regiones a Incluir en el Test</string>
+    <string name="results">%1$d adivinanzas, %2$.02f%% correctas</string>
+    <string name="incorrect_answer">Incorrecto !!!</string>
+    <string name="default_region_message">Debe seleccionar una región. Se establecerá Norte América como la región predeterminada.</string>
+    <string name="restarting_quiz">El Test se reiniciará con los nuevos ajustes</string>
+    <string name="question">Pregunta %1$d de %2$d</string>
+    <string name="reset_quiz">Reiniciar Test</string>
+    <string name="image_description">Imagen de la bandera actual en el Test</string>
+    <string name="default_region">North_America</string>
+    <string name="guess_country">Adivina el País</string>
+    <string name="title_activity_settings">Settings</string>
+</resources>
